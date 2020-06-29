@@ -1,0 +1,34 @@
+# PolicijskaUprava
+Projekat iz baze podataka
+Potrebno je projektovati konceptualni model baze podataka koja će pamtiti sve informacije neophodne  za funkcionisanje policijske uprave jednog grada.
+Na čelu policijske uprave nalazi se načelnik uprave koji ima zamenike za različite oblasti (za saobraćaj, za vanredne situacije, za krvne delikte i sl.). Policijskauprava se sastoji od većeg broja policijskih stanica. 
+Za svaku policijsku stanicu se pamti naziv, adresa,opština kojoj teritorijalno pripada, datum osnivanja i broj službenih vozila koja poseduje.
+Svaka policijska stanica ima šefa stanice i njegovog zamenika. 
+Za sve policajce koji rade u okviru uprave pamti se ime, ime roditelja, prezime, jedinstveni matični broj građana, datum rođenja, pol, adresa, datum prijema u službui policijska stanica gde je raspoređen. 
+Za svakog policajca se pamte informacije o obrazovanju: naziv škole/kursa i datum sticanja diplome. 
+Takođe potrebno je čuvati informacije o napredovanju policajca: čin i datum sticanja. 
+Za policajce koji su angažovani u sektoru za vanredne situacije potrebno je pamtiti i informacije o dodatnim veštinama koje imaju (naziv veštine, da li su pohađali neki kurs, datum završetka kursa, da li poseduju sertifikat, datum sticanja sertifikata). 
+Policajci mogu biti raspoređeni na različite dužnosti. 
+Za školske policajce se pamti informacija o školi za koju su zaduženi (naziv škole, da li je škola osnovna ili srednja, adresa škole,  	 za kontakt u školi i broj telefona škole). 
+Za policajce pozornike pamte se nazivi ulica za koje su zaduženi. 
+Ostali policajci su raspoređeni u patrole sa po dva člana.
+Jedan od članova patrole je je vođa patrole. 
+Svakoj patroli je dodeljen redni broj. 
+Svaka patrola duži službeno vozilo. 
+Za vozila se pamti registarska oznaka, boja, tip, model, proizvođač. 
+Policijska stanica je zadužena za bezbednost objekata u određenoj gradskoj oblasti. 
+Za svaki objekat se pamti adresa, tip objekta i površina. 
+Uz svaki objekat se pamti i kontakt osoba koju treba obavestiti za za slučaj intervencije. 
+Za kontakt osobe se čuvaju sledeće informacije: broj telefona, ime i prezime. 
+Svaka policijska intervencija se evidentira. 
+Pamti se koja patrola je imala intervenciju i u kom objektu, datum i vreme kada je intervencija obavljena, kao i kraći opis intervencije. 
+U svakom od obezbeđivanih objekata instaliran je alarmni sistem.
+Za alarmne sisteme se pamti serijski broj, model, proizvođač i godina proizvodnje. 
+Alarmni sistemi mogu funkcionisati po principu detekcije toplotnog odraza, detekcije pokreta ili mogu biti ultrazvučni.
+Za ultrazvučne senzore se pamti opseg frekvencija koje detektuje,
+za detektore pokreta se pamti osetljivost(težina koju detektuje),
+a za detektore toplotnog odraza horizontalna i vertikalna rezolucija IC kamere.
+Za svaki instalirani alarmni sistem se pamti datum instalacije, datum poslednjeg atesta sistema kao i datum
+poslednjeg servisiranja sistema sa kratkim opisom otklonjenog kvara. Takođe, za alarmne sisteme, pamti
+se i koje tehničko lice je zaduženo za njihovo održavanje. Kako bi bila dostupna istorija održavanja, pamte
+se početni i krajnji datum kada je neko tehničko lice bilo zaduženo za održavanje nekog alarmnog sistema.
